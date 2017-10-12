@@ -1,0 +1,36 @@
+body {
+    background-color: #a4b8d0;
+}
+
+.sticker {
+    background-color: #fff;
+    padding-top: 10px;
+    min-height: 100px;
+    min-width: 100px;
+    position: absolute;
+    border: 1px solid #e09ec8;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+}
+
+.sticker .bar {
+    background-color: #bc719f;
+    height: 20px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: move;
+}
+
+.sticker textarea {
+    padding: 0px 10px;
+    box-sizing: border-box;
+    min-height: 100px;
+    min-width: 100px;
+    background: transparent;
+    border: 0px;
+}
+.coords {
+    position: absolute;
+    left: 200px;
+}
